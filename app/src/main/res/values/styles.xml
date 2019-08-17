@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.TextViewLableBlack">
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/iran_sans</item>
+        <item name="android:textSize">@dimen/font_size_large</item>
+        <item name="android:textColor">@color/black_effective</item>
+        <item name="android:padding">@dimen/padding_common</item>
+    </style>
+
+    <style name="AppTheme.ButtonPrimary" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/button</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
+        <item name="android:textSize">@dimen/font_size_large</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">@dimen/padding_small</item>
+    </style>
+
+    <style name="AppTheme.EditTextGray">
+        <!-- Customize your theme here. -->
+        <item name="android:background">@drawable/bg_edit_text_gray</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
+        <item name="android:textSize">@dimen/font_size_normal</item>
+        <item name="android:textColor">@color/black_effective</item>
+        <item name="android:padding">@dimen/padding_common</item>
+    </style>
+
+    <style name="AppTheme.ButtonPrimaryColor" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/bg_btn_color_primary</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
+        <item name="android:textSize">@dimen/font_size_large</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">@dimen/padding_small</item>
+    </style>
+
+    <style name="AppTheme.ButtonAccentColor" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/bg_btn_accent_color</item>
+        <item name="android:fontFamily">@font/iran_sans</item>
+        <item name="android:textSize">@dimen/font_size_large</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">@dimen/padding_small</item>
+    </style>
+
+</resources>

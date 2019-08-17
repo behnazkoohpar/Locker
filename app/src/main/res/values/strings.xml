@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">مجموعه ورزشی نارین</string>
+    <string name="txt_attention">توجه</string>
+    <string name="pop_up_ok">باشه</string>
+    <string name="ok">تائید</string>
+    <string name="btn_cancel">انصراف</string>
+</resources>

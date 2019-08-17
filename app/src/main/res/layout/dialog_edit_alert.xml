@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_alert"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/btn_alert_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_white"
+        android:padding="@dimen/margin_small">
+
+        <ImageView
+            android:id="@+id/btn_alert_cancel"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/margin_normal"
+            android:layout_marginRight="@dimen/margin_normal"
+            android:src="@drawable/delete" />
+
+        <TextView
+            android:id="@+id/tv_alert_message"
+            style="@style/AppTheme.TextViewLableBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_alert_cancel"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="@dimen/margin_mini_small"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/ip"
+            style="@style/AppTheme.EditTextGray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoText="false"
+            android:textAlignment="center"
+            android:layout_below="@+id/tv_alert_message"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:maxLength="15"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginRight="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:layout_marginBottom="@dimen/margin_normal" />
+
+        <EditText
+            android:id="@+id/port"
+            style="@style/AppTheme.EditTextGray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoText="false"
+            android:textAlignment="center"
+            android:layout_below="@+id/ip"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLength="4"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginRight="@dimen/margin_large"
+            android:layout_marginBottom="@dimen/margin_normal" />
+
+        <Button
+            android:id="@+id/btnOk"
+            style="@style/AppTheme.ButtonAccentColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/port"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginRight="@dimen/margin_large"
+            android:text="@string/ok" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            style="@style/AppTheme.ButtonPrimaryColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnOk"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/margin_large"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginRight="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_small"
+            android:text="@string/btn_cancel" />
+    </RelativeLayout>
+</RelativeLayout>
